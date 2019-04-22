@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ekattorit.messmanagement"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.ekattorit.messmanagement.SplashActitity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ekattorit.messmanagement.MainActivity" />
+        <activity android:name="com.ekattorit.messmanagement.SetUp" />
+        <activity android:name="com.ekattorit.messmanagement.Login" />
+        <activity android:name="com.ekattorit.messmanagement.ManagerDash" />
+        <activity android:name="com.ekattorit.messmanagement.MessRegister" />
+        <activity android:name="com.ekattorit.messmanagement.FullSetUp" />
+        <activity android:name="com.ekattorit.messmanagement.ManageMess" />
+        <activity
+            android:name="com.ekattorit.messmanagement.DashBoard"
+            android:label="@string/title_activity_dash_board"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ekattorit.messmanagement.Bazar"
+            android:label="@string/title_activity_meal"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.ekattorit.messmanagement.AddMeal" />
+        <activity
+            android:name="com.ekattorit.messmanagement.MessConnect"
+            android:label="@string/title_activity_mess_connect"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.ekattorit.messmanagement.AllBazar" />
+        <activity android:name="com.ekattorit.messmanagement.AddBazar" />
+        <activity android:name="com.ekattorit.messmanagement.AddPayment" />
+        <activity android:name="com.ekattorit.messmanagement.AllMember" />
+        <activity android:name="com.ekattorit.messmanagement.AllPayment" />
+        <activity android:name="com.ekattorit.messmanagement.DemoAllBazar" />
+    </application>
+
+</manifest>

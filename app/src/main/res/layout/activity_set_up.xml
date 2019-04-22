@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        tools:ignore="Suspicious0dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mess Management "
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="System"
+            android:textColor="#55AAFF"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        tools:ignore="Suspicious0dp"
+        android:background="#ebeced"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/setupmess"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Set up Mess"
+            android:padding="10dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+        <Button
+            android:id="@+id/setuplogin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:padding="10dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

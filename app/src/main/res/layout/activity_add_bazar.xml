@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBazar">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Bazar"
+            android:textColor="#f49d58"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="#1a89e2"
+            />
+       <TextView
+           android:id="@+id/datetext"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Date: "
+           android:textSize="20dp"
+           android:textAlignment="center"
+           android:textColor="#edecec"
+           android:background="@color/colorAccent"
+           />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            >
+
+            <DatePicker
+                android:id="@+id/datepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </DatePicker>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            >
+            <EditText
+                android:id="@+id/editDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:hint="Date"
+                android:textColor="#f49d58"
+                />
+            <EditText
+                android:id="@+id/editAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:hint="Amount"
+                android:textColor="#f49d58"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+            <Button
+                android:id="@+id/bazarSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                style="@style/Widget.AppCompat.Button.Colored"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

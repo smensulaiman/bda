@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/manager_dash"
+        android:title="Dashboard"/>
+    <item
+        android:id="@+id/manager_mem_info"
+        android:title="Members Information"/>
+    <item
+        android:id="@+id/add_member"
+        android:title="Add member"/>
+    <item
+        android:id="@+id/manager_info"
+        android:title="My Account"/>
+    <item
+        android:id="@+id/manager_logout"
+        android:title="Logout"/>
+
+
+
+</menu>

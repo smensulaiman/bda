@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DemoAllBazar"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Members"
+        android:textColor="#1882c9"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/bazars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:textColor="#3C3F41"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:textColor="#3C3F41"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculate"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+</LinearLayout>

@@ -1,0 +1,13 @@
+#Mon Apr 22 23:54:52 BDT 2019
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=C\:\\Users\\supola\\Desktop\\MessManagementSystem(bachelor's day out)\\MessManagementSystem\\MessManagement\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+base.2=C\:\\Users\\supola\\Desktop\\MessManagementSystem(bachelor's day out)\\MessManagementSystem\\MessManagement\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+base.1=C\:\\Users\\supola\\Desktop\\MessManagementSystem(bachelor's day out)\\MessManagementSystem\\MessManagement\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+base.0=C\:\\Users\\supola\\Desktop\\MessManagementSystem(bachelor's day out)\\MessManagementSystem\\MessManagement\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
